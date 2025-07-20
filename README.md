@@ -18,6 +18,7 @@
   Step 6 : Click Start to Boot Kali Linux and Wait for a while.
   <img width="1919" height="1079" alt="Screenshot 2025-07-20 232207" src="https://github.com/user-attachments/assets/0814cd75-1ddc-4ac8-a8db-668f239a914e" />
     Enter the Default Username:kali and Password:kali.
+    Kali Linux Booted Successfully!!!.
   Some Usual Applications in Kali Linux like,
     *Nmap (network scanning)
     *Wireshark (packet analysis)
