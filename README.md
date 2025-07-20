@@ -13,7 +13,8 @@
     <img width="1919" height="1079" alt="Screenshot 2025-07-20 224029" src="https://github.com/user-attachments/assets/19befb0a-2a34-41ec-b6a8-aeefa768e47b" />
   Step 3 : Download 7-ZIP Application for unzipping Compressed file without changing it's Signature.
     Download using the link:https://www.7-zip.org
-  Step 4 : Unzip the Compressed Kali File. (Click on Extract All or Extract Here)
+  Step 4 : Unzip the Compressed Kali File. 
+    Right Click the Zip file → Click on 7-Zip → Click on Extract All or Extract Here
   Step 5 : Open the Folder and Click KaliLinux VirtualBox Machine Definition File.
   <img width="859" height="216" alt="Screenshot 2025-07-20 231845" src="https://github.com/user-attachments/assets/3f3f87b1-3190-4f15-aeb1-250bec37136e" />
   Step 6 : Click Start to Boot Kali Linux and Wait for a while.
