@@ -6,6 +6,7 @@
     VirtualBox Official Website:https://www.virtualbox.org
     Goto Download → Click on Windows hosts.  (the download will Begin)
     <img width="1919" height="1079" alt="Screenshot 2025-07-20 224107" src="https://github.com/user-attachments/assets/816de49c-4b12-4b34-ad21-51aa985e34fa" />
+    After Downloading the file,Click on the file and install the Virtual Machine
   Step 2 : Download Kali Linux 
     Kali Linux Official Website:https://www.kali.org
     Click on Download → Click Virtual Machines → Click on VirtualBox in the Recommended Session.  (it will download in Compressed Archive Folder)
