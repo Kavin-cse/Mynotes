@@ -56,7 +56,7 @@ Kali Linux Booted Successfully!!!.
 | clear          | Clears the terminal screen                |
 | exit           | Logs out from terminal                    |
 | ifconfig       | View network interface details            |
-
+| sudo su        | Enters into root directory                |
 ### Difference between ls -l and ls -lh.
 | Command  | File Size Display            | Use When You Need To    |
 | -------- | ---------------------------- | ----------------------- |
