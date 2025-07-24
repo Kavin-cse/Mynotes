@@ -6,7 +6,8 @@
   Step 1 : Download VirtualBox.
     
   VirtualBox Official Website:https://www.virtualbox.org
-    Goto Download → Click on Windows hosts.  (the download will Begin)
+    
+  Goto Download → Click on Windows hosts.  (the download will Begin)
     <img width="1919" height="1079" alt="Screenshot 2025-07-20 224107" src="https://github.com/user-attachments/assets/816de49c-4b12-4b34-ad21-51aa985e34fa" />
     After Downloading the file,Click on the file and install the Virtual Machine.
   
@@ -56,7 +57,6 @@ Kali Linux Booted Successfully!!!.
 | exit           | Logs out from terminal                    |
 | ifconfig       | View network interface details            |
 
----
 ### Difference between **ls -l** and **ls -lh.**
 | Command  | File Size Display            | Use When You Need To    |
 | -------- | ---------------------------- | ----------------------- |
