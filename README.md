@@ -35,10 +35,14 @@ Kali Linux Booted Successfully!!!.
   
   Some Usual Applications in Kali Linux like,
     *Nmap (network scanning)
-    *Wireshark (packet analysis)
-    *Metasploit (exploitation)
-    *Burp Suite (web testing) 
-    *John the Ripper (password cracking).
+
+   *Wireshark (packet analysis)
+
+   *Metasploit (exploitation)
+
+   *Burp Suite (web testing) 
+
+   *John the Ripper (password cracking).
 # Day 03
 EXE- Executable File.
 
