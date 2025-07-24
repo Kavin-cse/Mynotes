@@ -57,7 +57,7 @@ Kali Linux Booted Successfully!!!.
 | exit           | Logs out from terminal                    |
 | ifconfig       | View network interface details            |
 
-### Difference between **ls -l** and **ls -lh.**
+### Difference between ls -l and ls -lh.
 | Command  | File Size Display            | Use When You Need To    |
 | -------- | ---------------------------- | ----------------------- |
 | ls -l    | Bytes (raw numbers)          | See exact size in bytes |
