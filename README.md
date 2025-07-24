@@ -33,8 +33,8 @@ Right Click the Zip file → Click on 7-Zip → Click on Extract All or Extract 
     
 Kali Linux Booted Successfully!!!.
   
-  Some Usual Applications in Kali Linux like,
-    *Nmap (network scanning)
+  ### Some Usual Applications in Kali Linux like,
+   *Nmap (network scanning)
 
    *Wireshark (packet analysis)
 
