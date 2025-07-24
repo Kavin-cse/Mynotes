@@ -34,15 +34,33 @@ Right Click the Zip file → Click on 7-Zip → Click on Extract All or Extract 
 Kali Linux Booted Successfully!!!.
   
   ### Some Usual Applications in Kali Linux like,
-   *Nmap (network scanning)
+   + Nmap (network scanning).
 
-   *Wireshark (packet analysis)
+   + Wireshark (packet analysis).
 
-   *Metasploit (exploitation)
+   + Metasploit (exploitation).
 
-   *Burp Suite (web testing) 
+   + Burp Suite (web testing). 
 
-   *John the Ripper (password cracking).
+   + John the Ripper (password cracking).
 # Day 03
-EXE- Executable File.
+### Kali Linux Commends
+| Commands       | Uses                                      |
+| -------------- | ----------------------------------------- |
+| cd             | Changes the current directory             |
+| ls             | Lists files and directories               |
+| mkdir          | Creates a new directory                   |
+| rmdir          | Removes an empty directory                |
+| pwd            | Prints the current working directory path |
+| clear          | Clears the terminal screen                |
+| exit           | Logs out from terminal                    |
+| ifconfig       | View network interface details            |
 
+---
+### Difference between **ls -l** and **ls -lh.**
+| Command  | File Size Display            | Use When You Need To    |
+| -------- | ---------------------------- | ----------------------- |
+| ls -l    | Bytes (raw numbers)          | See exact size in bytes |
+| ls -lh   | Human-readable (e.g. 2K, 1M) | Understand size quickly |
+---
+### Introduction to Windows Hacking.
