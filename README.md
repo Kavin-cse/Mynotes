@@ -184,5 +184,5 @@ Nmap (Network Mapper) is an open-source tool used for network discovery, securit
 | `nmap -iL list.txt`                   | 📄 Scan hosts listed in a file.                              |
 | `nmap -oN scan.txt [target]`          | 💾 Save output in normal format to a file.                   |
 | `nmap --script http-enum [target]`    | 📝 Use NSE script to enumerate web resources.                 |
-
+| sudo arp-scan -l                      | 🔍Scan the entire local subnet to list all active devices with their IP and MAC addresses|
 
