@@ -323,5 +323,125 @@ Use **only** in environments where you have explicit permission.
 Unauthorized access to computer systems is illegal.
 
 ---
+# Day 06
+# 🐞 Bug Bounty
 
 
+   A Bug Bounty Program is a deal offered by many websites, organizations, and software developers where individuals can receive recognition and compensation for reporting bugs, especially security vulnerabilities.
+## 🏹 Common Vulnerabilities Found in Bug Bounties
+
+   * These are the most reported bugs (you’ll hear them a lot):
+
+   * Broken Access Control (BAC) – Users access data/actions they shouldn’t.
+
+   * IDOR (Insecure Direct Object Reference) – Example: Changing user ID in a URL to view another user’s data.
+
+   * XSS (Cross-Site Scripting) – Injecting malicious scripts in a web page.
+
+   * CSRF (Cross-Site Request Forgery) – Forcing users to execute unwanted actions.
+
+   * SQL Injection (SQLi) – Manipulating database queries.
+
+   * SSRF (Server-Side Request Forgery) – Making the server perform unauthorized requests.
+
+   * Authentication & Authorization Bypasses – Login without valid credentials.
+
+---
+
+## 🌐 Popular Bug Bounty Platforms
+
+   - Here are the top websites where you can find programs:
+
+   - HackerOne → Biggest platform, hosts programs for Uber, Twitter (X), Shopify.
+
+   - Bugcrowd → Wide variety of private/public programs.
+
+   - Intigriti → European-based platform, rising fast.
+
+   - YesWeHack → Strong EU presence.
+
+   - Open Bug Bounty → Free & open.
+
+---
+
+## 🛠 Tools You’ll Need
+
+  - Burp Suite (proxy & scanner)
+
+  - Nmap (network scanning)
+
+  - SQLmap (SQL injection)
+
+  - Dirsearch/Gobuster (directory brute force)
+
+  - Subfinder/Amass (subdomain enumeration)
+
+  - Postman/Insomnia (API testing)
+---
+## 🛑Zero-Click Attack?
+
+   A Zero-Click Attack is a type of cyberattack where the victim doesn’t need to click, open, or interact with anything.
+
+   * The attack happens automatically once the malicious data reaches the device.
+
+   * Usually targets messaging apps, email apps, or VoIP services that process data in the background.
+
+   - In simple words → your phone or system gets hacked without you doing anything.
+## ⚡ How It Works
+
+* Attacker sends a malicious payload (SMS, MMS, email, image, audio, or call).
+
+* The vulnerable app automatically processes it (parsing image, previewing message, etc.).
+
+* Malicious code executes silently → attacker gains control.
+
+* Victim doesn’t see any suspicious message → no evidence.
+
+## 🎯 Examples of Zero-Click Attacks
+
+ Pegasus Spyware (NSO Group)
+
+  - Exploited iMessage & WhatsApp with zero-click.
+
+  - Just receiving a specially crafted iMessage was enough → full phone takeover (camera, mic, data).
+
+ WhatsApp 2019 Vulnerability
+
+  - Attackers made a missed call → installed spyware.
+
+ Apple Mail Zero-Click (2020)
+
+  - Malicious emails triggered memory corruption without being opened.
+
+---
+# 🔥Famous Hacking Devices
+
+## 📡 WiFi Pineapple
+- The WiFi Pineapple is a device designed for Wi-Fi security testing.  
+- It can create rogue access points to trick users into connecting.  
+- Attackers can perform man-in-the-middle attacks and capture data.  
+- It’s widely used in penetration testing to demonstrate wireless risks.  
+
+## 💻 USB Rubber Ducky
+- The Rubber Ducky looks like a regular USB flash drive.  
+- When plugged in, it acts as a keyboard and executes commands quickly.  
+- It is often used to deliver malicious payloads in seconds.  
+- Security testers use it to show how dangerous USB devices can be.  
+
+## 🦊 Flipper Zero
+- The Flipper Zero is a portable multi-tool for hackers.  
+- It supports RFID, NFC, infrared, Bluetooth, and Sub-GHz radio signals.  
+- It can clone access cards, control IoT devices, and test wireless security.  
+- Its open-source nature makes it extremely popular with security researchers.
+
+## 🐇 Bash Bunny
+- The Bash Bunny is a powerful USB attack platform.  
+- It can function as a keyboard, network adapter, and storage device at once.  
+- It automates data exfiltration, credential theft, and penetration testing tasks.  
+- It is favored for advanced red team operations due to its versatility.  
+
+## 📻 HackRF One
+- HackRF One is a software-defined radio (SDR) device.  
+- It can capture, analyze, and transmit radio signals between 1 MHz and 6 GHz.  
+- Researchers use it for testing GPS spoofing, wireless communications, and IoT security.  
+- It is one of the most advanced tools for wireless and signal hacking.  
